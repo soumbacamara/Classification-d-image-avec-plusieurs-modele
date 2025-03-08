@@ -30,3 +30,10 @@ git add .
 git rebase --continue
 git push origin main 
 git pull --rebase origin main
+git add .
+git commit -m "up"
+git congig --global user.email ""
+git congfig --global user.email ""
+git config --global user.email ""
+git commit --amend --rest-author
+git commit -m "up"

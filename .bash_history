@@ -23,3 +23,10 @@ git push origin main
 git branch -m master main
 git push origin main
 git pull --rebase origin main
+git add .
+git commit -m "up"
+git pull --rebase origin main
+git add .
+git rebase --continue
+git push origin main 
+git pull --rebase origin main

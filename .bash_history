@@ -14,3 +14,12 @@ git commit -m "up"
 git pull --rebase
 git push origin main
 git status
+git add .
+git commit -m "up"
+git config --global user.name "soumba"
+git branch
+git branch
+git push origin main
+git branch -m master main
+git push origin main
+git pull --rebase origin main
